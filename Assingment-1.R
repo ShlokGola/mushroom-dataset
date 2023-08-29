@@ -1,7 +1,7 @@
 getwd()
-setwd("C:/Users/HP/Documents/R")
+setwd("Your Working Directory path")
 
-dataset <- read.csv("mushrooms.csv", header = TRUE, stringsAsFactors = TRUE)
+dataset <- read.csv("Datset-path", header = TRUE, stringsAsFactors = TRUE)
 View(dataset)
 dim(dataset)
 str(dataset)
